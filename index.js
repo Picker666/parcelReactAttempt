@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import styles from './index.css';
 
 class HelloWorld extends Component {
     constructor () {
@@ -9,7 +9,7 @@ class HelloWorld extends Component {
 
     render () {
         const { name } = this.props;
-        return <div className="content">{`Hello, ${name} ！！！`}</div>
+        return <div className={styles.content}>{`Hello, ${name} ！！！`}</div>
     }
 }
 

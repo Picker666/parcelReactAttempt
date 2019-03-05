@@ -4406,6 +4406,12 @@ set-value@^2.0.0:
     is-plain-object "^2.0.3"
     split-string "^3.0.1"
 
+set-value@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/set-value/-/set-value-3.0.0.tgz#bc021514f46effed8176fd5f0f67e9988531141f"
+  dependencies:
+    is-plain-object "^2.0.4"
+
 setimmediate@^1.0.4:
   version "1.0.5"
   resolved "https://registry.npmjs.org/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
@@ -4567,7 +4573,7 @@ static-module@^2.2.0:
     static-eval "^2.0.0"
     through2 "~2.0.3"
 
-"statuses@>= 1.4.0 < 2":
+"statuses@>= 1.4.0 < 2", statuses@^1.5.0:
   version "1.5.0"
   resolved "https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
 
