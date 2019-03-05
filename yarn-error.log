@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe D:\yarn\bin\yarn.js remove node-sass
+  C:\Program Files\nodejs\node.exe D:\yarn\bin\yarn.js add precss -D
 
 PATH: 
-  C:\Users\Administrator\bin;D:\git\Git\mingw64\bin;D:\git\Git\usr\local\bin;D:\git\Git\usr\bin;D:\git\Git\usr\bin;D:\git\Git\mingw64\bin;D:\git\Git\usr\bin;C:\Users\Administrator\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\git\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\vsCode\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;D:\yarn\bin;C:\WINDOWS\System32\OpenSSH;C:\Python27;C:\Program Files\SourceGear\Common\DiffMerge;D:\Redis;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\vsCode\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\nv;C:\Program Files\nodejs";D:\node\node_global;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Users\Administrator\AppData\Roaming\nvm;D:\git\Git\usr\bin\vendor_perl;D:\git\Git\usr\bin\core_perl
+  C:\Users\Administrator\AppData\Roaming\nvm\v8.0.0\node_modules\npm\bin\node-gyp-bin;E:\temp\parcel\reactAttempt\node_modules\.bin;C:\Users\Administrator\bin;D:\git\Git\mingw64\bin;D:\git\Git\usr\local\bin;D:\git\Git\usr\bin;D:\git\Git\usr\bin;D:\git\Git\mingw64\bin;D:\git\Git\usr\bin;C:\Users\Administrator\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\git\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\vsCode\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;D:\yarn\bin;C:\WINDOWS\System32\OpenSSH;C:\Python27;C:\Program Files\SourceGear\Common\DiffMerge;D:\Redis;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\vsCode\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\nv;C:\Program Files\nodejs";D:\node\node_global;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Users\Administrator\AppData\Roaming\nvm;D:\git\Git\usr\bin\vendor_perl;D:\git\Git\usr\bin\core_perl
 
 Yarn version: 
   1.5.1
@@ -5001,10 +5001,4 @@ Lockfile:
     resolved "https://registry.npmjs.org/yallist/-/yallist-3.0.3.tgz#b4b049e314be545e3ce802236d6cd22cd91c3de9"
 
 Trace: 
-  Error: This module isn't specified in a manifest.
-      at new MessageError (D:\yarn\lib\cli.js:186:110)
-      at Object.<anonymous> (D:\yarn\lib\cli.js:60445:15)
-      at Generator.next (<anonymous>)
-      at step (D:\yarn\lib\cli.js:98:30)
-      at D:\yarn\lib\cli.js:109:13
-      at <anonymous>
+  Error: ENOENT: no such file or directory, open 'E:\temp\parcel\reactAttempt\node_modules\@babel\core\node_modules\ms\index.js'
